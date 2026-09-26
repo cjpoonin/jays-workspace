@@ -1,0 +1,103 @@
+/* Base */
+body {
+  font-family: 'Nunito', sans-serif;
+  background-color: #FFF8EC;
+  color: #232323;
+}
+
+h1, h2, h3 {
+  font-family: 'Baloo 2', sans-serif;
+}
+
+/* Hero Section */
+.hero {
+  background-color: #3E9FE0;
+  border-bottom: 6px solid #FFC93C;
+}
+
+.hero-badge {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #fff;
+  font-weight: 600;
+  padding: 8px 16px;
+}
+
+.hero-pill {
+  background-color: rgba(255, 255, 255, 0.18);
+  color: #fff;
+  font-weight: 700;
+  padding: 8px 16px;
+  font-size: 0.95rem;
+}
+
+/* Section Titles */
+.section-title {
+  color: #3E9FE0;
+}
+
+.section-divider {
+  border: none;
+  height: 4px;
+  width: 60px;
+  background-color: #FF6B5B;
+  border-radius: 4px;
+  margin-left: 0;
+}
+
+/* Warm-Up Section */
+.warmup-box {
+  background-color: #ffffff;
+  border: 2px solid #eee0c8;
+  border-radius: 12px;
+  padding: 12px 14px;
+  font-weight: 700;
+  font-size: 0.95rem;
+  text-align: center;
+}
+
+/* Game Meta Info */
+.game-meta {
+  font-weight: 700;
+  color: #555;
+  font-size: 0.95rem;
+  margin-bottom: 1rem;
+}
+
+/* Game Tags */
+.tag-relay {
+  background-color: #FF6B5B;
+  color: #fff;
+}
+
+.tag-team {
+  background-color: #4FB477;
+  color: #fff;
+}
+
+.tag-all {
+  background-color: #7C5CFF;
+  color: #fff;
+}
+
+/* Location Section */
+.location-card {
+  background-color: #ffffff;
+  border: 2px solid #eee0c8;
+  border-radius: 18px;
+}
+
+/* Buttons */
+.btn-warning {
+  background-color: #FFC93C;
+  border-color: #232323;
+  color: #232323;
+}
+
+.btn-warning:hover {
+  background-color: #ffbe17;
+  color: #232323;
+}
+
+.btn-outline-dark {
+  border-color: #232323;
+}
