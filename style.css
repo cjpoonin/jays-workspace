@@ -1,0 +1,44 @@
+body {
+  font-family: "Bricolage Grotesque", sans-serif;
+  color: #000;
+}
+
+.narrow {
+  max-width: 820px;
+}
+
+.navbar .nav-link,
+.navbar-brand {
+  color: #000;
+}
+
+.featured-img {
+  aspect-ratio: 4 / 3;
+  background-color: #e9ecef;
+  border-radius: 16px;
+}
+
+.article-card {
+  height: 340px;
+  border: 0;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+.article-img {
+  flex: 7;
+  background-color: #e9ecef;
+}
+.article-details {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+  padding: 0.6rem 0.9rem;
+}
+
+@media (min-width: 768px) {
+  .article-card { height: 440px; }
+}
+@media (max-width: 575px) {
+  .article-card { height: 280px; }
+}
